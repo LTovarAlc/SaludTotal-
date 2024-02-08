@@ -1,9 +1,17 @@
-import "./darkModeBtn.css"
+import "./darkModeBtn.css";
 
-const DarkMode = () => {
-    return(
-        <input type="checkbox" className="theme-checkbox"/> 
-    )
-}
+const DarkMode = ({ toggleDarkMode }) => {
+  const handleChangeDarkMode = () => {
+    toggleDarkMode();
+  };
 
-export default DarkMode
+  return (
+    <input
+      type="checkbox"
+      className="theme-checkbox"
+      onChange={handleChangeDarkMode}
+    />
+  );
+};
+
+export default DarkMode;
