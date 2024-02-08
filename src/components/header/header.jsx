@@ -1,3 +1,4 @@
+import DarkMode from "./darkmodeBtn/darkModeBtn"
 import "./header.css"
 
 const  Header = () => {
@@ -16,7 +17,7 @@ const  Header = () => {
                     <li className="item__list">Médicos</li>
                     <li className="item__list">Ubicación</li>
                     <li className="item__list">Agendar cita</li>
-                    <input type="checkbox" class="theme-checkbox"/> 
+                    <DarkMode/>
                 </ul>
             </nav>
         </header>
