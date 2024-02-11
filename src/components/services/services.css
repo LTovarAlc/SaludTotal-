@@ -1,0 +1,19 @@
+.services{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.section__title-services{
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.cardServices__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
