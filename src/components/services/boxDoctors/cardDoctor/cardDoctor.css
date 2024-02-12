@@ -1,0 +1,37 @@
+.cardDoctor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.doctor__img{
+    width: 30%;
+}
+
+.doctor__info{
+    width: 60%;
+    height: 100%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.doctor__name{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.doctor__speciality{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.doctor__experience{
+    font-size: 14px;
+    font-weight: 300;
+}

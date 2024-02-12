@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import CardServices from "./cardServices/cardServices";
 import "./services.css";
+import BoxDoctors from "./boxDoctors/boxDoctors";
 
 const Services = () => {
   const [services, setServices] = useState([]);
@@ -25,10 +26,15 @@ const Services = () => {
   return (
     <section className="services">
       <h3 className="section__title-services">Conozca nuestros servicios</h3>
+      <div className="services__content">
       <div className="cardServices__container">
         {services.map(service => (
           <CardServices key={service.id} service={service} />
         ))}
+      </div>
+      <div className="boxDoctors__container">
+        <BoxDoctors/>
+      </div>
       </div>
     </section>
   );
