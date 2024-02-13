@@ -1,0 +1,55 @@
+.cardLocation {
+  width: 200px;
+  height: 254px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cardLocation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.saludTotal__icon-cardLocation{
+    height: 40px;
+}
+
+.cardLocation__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardLocation__title span{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.cardLocation__icons{
+    height: 30px;
+}
+
+.cardLocation__items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #020202;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.cardLocation__items a{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cardLocation__items a:hover{
+    transition: 0.2s ease;
+    color: #025b52;
+    text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+.location{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section__title{
+    font-size: 46px;
+    font-weight: 500;
+
+}
+
+.map__container{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.location__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
