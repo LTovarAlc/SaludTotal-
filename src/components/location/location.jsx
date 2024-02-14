@@ -13,9 +13,9 @@ const Location = () => {
                     width="100%"
                     height="90%"
                     style={{ border: 0 }}
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    allowFullScreen=""
+                    loading="async"
+                    referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </div>
             </div>
