@@ -16,7 +16,7 @@
     height: 80%;
     width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -30,7 +30,9 @@
 }
 
 .form_container{
-    width: 60%;
+    width: 40%;
     height: 100%;
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
