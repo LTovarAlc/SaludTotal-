@@ -10,7 +10,7 @@ const Banner = () => {
             Cuidamos de ti <br />
             Cuidamos tu salud
           </h3>
-          <button>Servicios</button>
+          <button className="banner-button">Servicios</button>
         </div>
       </section>
     </section>

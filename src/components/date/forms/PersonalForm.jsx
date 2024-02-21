@@ -1,3 +1,4 @@
+import Button from "../../button/button";
 import "./PersonalForm.css";
 import Input from "./inputs/inputs";
 
@@ -23,6 +24,7 @@ const PersonalForm = () => {
       </div>
       <Input type="email" name="email" placheholder="Correo electrónico" />
       <Input type="tel" name="phone" placheholder="Teléfono" />
+      <Button text="Continuar"/>
     </form>
   );
 };
