@@ -16,9 +16,6 @@ const Instructions = () => {
             <li>
               <span className="list__item">Especificar detalles de la cita:</span> Define el tipo de cita y otros detalles relevantes.
             </li>
-            <li>
-              <span className="list__item">Esperar confirmación:</span> Recibirás una respuesta a través de correo electrónico, WhatsApp o llamada.
-            </li>
           </ol>
         </div>
       </div>

@@ -1,59 +1,14 @@
 .cardInstructions {
   width: 100%;
-  height: 50%;
+  height: 40%;
   background: lightgrey;
   position: relative;
-  transform: skewY(-10deg);
   border: 5px solid #17C3B2;
   box-sizing: border-box;
   transition: all 0.3s;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-.cardInstructions::before {
-  content: "";
-  width: 10px;
-  height: 154px;
-  background: #17C3B2;
-  position: absolute;
-  top: -5px;
-  left: -14.7px;
-  transform-origin: right;
-  transform: skewY(45deg);
-  border: none;
-  transition: all 0.5s;
-}
-
-.cardInstructions::after {
-  content: "";
-  height: 10px;
-  width: 190px;
-  background: #17C3B2;
-  position: absolute;
-  top: -14.7px;
-  left: -5px;
-  transform-origin: bottom;
-  transform: skewX(45deg);
-  border: none;
-  transition: all 0.5s;
-}
-
-.cardInstructions:hover {
-  transform: skewY(0deg);
-}
-
-.cardInstructions:hover::before {
-  width: 0px;
-  height: 129px;
-  left: 0;
-  top: 0.1px;
-}
-
-.cardInstructions:hover::after {
-  width: 184px;
-  height: 0px;
-  left: 0.1px;
-  top: 0;
-}
 
 .card__instructions-info {
   background-color: #fff;
