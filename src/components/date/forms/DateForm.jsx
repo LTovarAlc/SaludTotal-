@@ -17,10 +17,11 @@ const DateForm = () => {
             <option value="">Salud mental y psicoterapia</option>
         </select>
         <div className="date-pickers">
-            <input type="date" name="date-pick" id="date-pick" className="date-pick" />
+            <h6>Fecha y hora</h6>
+            <input type="date" name="date-pick" id="date-pick" className="date-pick"/>
             <input type="time" name="time-pick" id="time-pick" className="time-pick" />
         </div>
-        <textarea name="date-details" id="date-details" cols="40" rows="5" placeholder="Comente algunos detalles de su cita, sintomas o especificaiones que se deban tomar en cuenta."></textarea>
+        <textarea name="date-details" id="date-details" cols="40" rows="3" placeholder="Comente algunos detalles de su cita, sintomas o especificaiones que se deban tomar en cuenta."></textarea>
         <CheckBox/>
         <Button text="Continuar"/>
     </form>
