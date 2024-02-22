@@ -2,8 +2,8 @@ import "./cardLocation.css";
 
 const CardLocation = () => {
   return (
-    <div class="cardLocation">
-      <div class="cardLocation__content">
+    <div className="cardLocation">
+      <div className="cardLocation__content">
         <div className="cardLocation__title">
           <img
             src="../../../../img/saludTotal.png"

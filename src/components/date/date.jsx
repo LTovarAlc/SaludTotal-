@@ -1,6 +1,7 @@
 import Instructions from "../instructions/instructions"
 import Calendar from "./calendar/calendar"
 import "./date.css"
+import DateForm from "./forms/DateForm"
 import PersonalForm from "./forms/PersonalForm"
 
 const Date = () => {
@@ -13,7 +14,8 @@ const Date = () => {
                     <Calendar/>
                 </div>
                 <div className="form_container">
-                    <PersonalForm/>
+                    {/* <PersonalForm/> */}
+                    <DateForm/>
                 </div>
             </div>
         </section>
