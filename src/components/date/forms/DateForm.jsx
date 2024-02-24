@@ -23,7 +23,6 @@ const DateForm = () => {
         </div>
         <textarea name="date-details" id="date-details" cols="40" rows="3" placeholder="Comente algunos detalles de su cita, sintomas o especificaiones que se deban tomar en cuenta."></textarea>
         <CheckBox/>
-        <Button text="Continuar"/>
     </form>
   );
 };

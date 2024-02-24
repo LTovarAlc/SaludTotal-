@@ -24,7 +24,6 @@ const PersonalForm = () => {
       </div>
       <Input type="email" name="email" placheholder="Correo electrónico" />
       <Input type="tel" name="phone" placheholder="Teléfono" />
-      <Button text="Continuar"/>
     </form>
   );
 };

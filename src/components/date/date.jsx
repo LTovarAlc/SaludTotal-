@@ -3,6 +3,7 @@ import Calendar from "./calendar/calendar"
 import "./date.css"
 import DateForm from "./forms/DateForm"
 import PersonalForm from "./forms/PersonalForm"
+import Button from "../button/button"
 
 const Date = () => {
     return(
@@ -16,6 +17,7 @@ const Date = () => {
                 <div className="form_container">
                     {/* <PersonalForm/> */}
                     <DateForm/>
+                    <Button text="Continuar"/>
                 </div>
             </div>
         </section>
