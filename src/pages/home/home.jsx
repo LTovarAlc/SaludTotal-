@@ -5,6 +5,7 @@ import Date from "../../components/date/date"
 import React from "react"
 import "./home.css"
 import Location from "../../components/location/location"
+import Footer from "../../components/footer/footer"
 
 const Home = () => {
     return(
@@ -14,6 +15,7 @@ const Home = () => {
             <Services/>
             <Location/>
             <Date/>
+            <Footer/>
         </section>
     )
         
