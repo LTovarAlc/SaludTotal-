@@ -15,7 +15,7 @@ const Footer = () => {
             </ul>
         </nav>
         <div className="footer__center">
-            <div className="brand">
+            <div className="footer__brand">
                 <img src="../../img/saludTotal.png" alt="Salud Total" className="footer-logo"/>
                 <span className="footer-logo__name">Salud Total</span>
             </div>
