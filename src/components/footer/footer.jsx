@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <footer>
         <nav className="menu-footer">
-            <ul>
+            <ul className="footer-list">
                 <li className="menu-footer__items"><a href="#">Servicios</a></li>
                 <li className="menu-footer__items"><a href="#">Ubicación</a></li>
                 <li className="menu-footer__items"><a href="#">Citas</a></li>
@@ -29,6 +29,7 @@ const Footer = () => {
                 <img src="../../img/sanofi-logo.png" alt=""  className="brands-logos"/>
             </div>
         </div>
+        <div className="contact"></div>
         </footer>
     )
 }   
