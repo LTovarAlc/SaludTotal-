@@ -1,4 +1,4 @@
-.buttonForm {
+.buttonFormBack {
     display: inline-block;
     border-radius: 4px;
     background-color: #5891ff;
@@ -13,28 +13,28 @@
     margin: 5px;
   }
   
-  .buttonForm span {
+  .buttonFormBack span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  .buttonForm span:after {
-    content: "»";
+  .buttonFormBack span:after {
+    content: "«"; /* Cambiamos la flecha a "«" para retroceder */
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -15px;
+    left: -15px; /* Ajustamos la posición izquierda */
     transition: 0.5s;
   }
   
-  .buttonForm:hover span {
-    padding-right: 15px;
+  .buttonFormBack:hover span {
+    padding-left: 15px; /* Cambiamos el padding a la izquierda */
   }
   
-  .buttonForm:hover span:after {
+  .buttonFormBack:hover span:after {
     opacity: 1;
-    right: 0;
+    left: 0; /* Ajustamos la posición izquierda */
   }
   

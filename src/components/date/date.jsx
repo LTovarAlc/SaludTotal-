@@ -30,7 +30,7 @@ const Date = () => {
                     {step === 1 && <PersonalForm />}
                     {step === 2 && <DateForm />}
                     <div className="btns__container">
-                    {step === 2 && <ButtonBack text="Volver" onClick={handlePreviousStep} />}
+                    {step === 2 && <ButtonBack text="Regresar" onClick={handlePreviousStep} />}
                     <Button text="Continuar" onClick={handleNextStep} /> 
                     </div>
                 </div>

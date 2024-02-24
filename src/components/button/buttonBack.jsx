@@ -3,7 +3,7 @@ import React from "react";
 
 const ButtonBack = ({text, onClick}) => {
   return (
-    <button className="buttonForm" onClick={onClick}>
+    <button className="buttonFormBack" onClick={onClick}>
       <span>{text}</span>
     </button>
   );
