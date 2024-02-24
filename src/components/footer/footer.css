@@ -51,12 +51,16 @@ footer{
 
 .contact{
     height: 90%;
-    width: 30%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
 .menu-footer{
     height: 90%;
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;

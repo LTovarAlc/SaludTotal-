@@ -1,3 +1,4 @@
+import FooterContact from "../footerContact/footerContact"
 import "./footer.css"
 
 const Footer = () => {
@@ -29,7 +30,9 @@ const Footer = () => {
                 <img src="../../img/sanofi-logo.png" alt=""  className="brands-logos"/>
             </div>
         </div>
-        <div className="contact"></div>
+        <div className="contact">
+            <FooterContact/>
+        </div>
         </footer>
     )
 }   
