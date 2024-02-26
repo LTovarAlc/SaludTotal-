@@ -63,6 +63,10 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
 }
 
+.contact-dark{
+    background-color: #333333;
+}
+
 .menu-footer{
     height: 90%;
     width: 25%;

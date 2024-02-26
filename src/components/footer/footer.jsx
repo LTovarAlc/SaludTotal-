@@ -32,8 +32,8 @@ const Footer = ({darkMode}) => {
                 <img src="../../img/sanofi-logo.png" alt=""  className="brands-logos"/>
             </div>
         </div>
-        <div className="contact">
-            <FooterContact/>
+        <div className={`contact ${darkMode ? "contact-dark" : ""} `}>
+            <FooterContact darkMode={darkMode}/>
         </div>
         </footer>
     )
