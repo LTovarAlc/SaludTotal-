@@ -1,4 +1,5 @@
 import "./banner.css";
+import React from "react";
 
 const Banner = () => {
   return (
@@ -10,7 +11,7 @@ const Banner = () => {
             Cuidamos de ti <br />
             Cuidamos tu salud
           </h3>
-          <button className="banner-button">Servicios</button>
+          <a href="#services"><button className="banner-button">Servicios</button></a>
         </div>
       </section>
     </section>

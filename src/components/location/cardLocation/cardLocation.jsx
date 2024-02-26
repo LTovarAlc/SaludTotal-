@@ -17,13 +17,13 @@ const CardLocation = () => {
             Ver en google maps
           </a>
         </div>
-        <div className="cardLocation__items">
+        {/* <div className="cardLocation__items">
           <img
             src="../../../../img/phone.png"
             className="cardLocation__icons"
           />
           <a href="#contact">Enviar un mensaje</a>
-        </div>
+        </div> */}
         <div className="cardLocation__items">
           <img src="../../../../img/mail.png" className="cardLocation__icons" />
           <a href="#contact">Enviar un correo</a>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import axios from "axios";
 import CardServices from "./cardServices/cardServices";
 import "./services.css";
@@ -24,7 +24,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section className="services">
+    <section className="services" id="services">
       <h3 className="section__title-services">Conozca nuestros servicios</h3>
       <div className="services__content">
       <div className="cardServices__container">

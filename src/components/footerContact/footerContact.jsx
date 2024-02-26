@@ -4,7 +4,7 @@ import Button from "../button/button"
 
 const FooterContact = () => {
     return(
-        <form className="footerContact">
+        <form className="footerContact" id="contact">
             <h6>Contactanos</h6>
             <Inputs placheholder="Nombre"/>
             <Inputs placheholder="Asunto"/>
