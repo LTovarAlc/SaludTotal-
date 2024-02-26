@@ -1,16 +1,8 @@
 import DarkMode from "./darkmodeBtn/darkModeBtn"
-import { useState } from "react"
 
 import "./header.css"
 
-const  Header = () => {
-    const [darkMode, setDarkMode] = useState(false);
-
-    const toggleDarkMode = () => { //funcion para cambiar al estado oscuro
-        setDarkMode(!darkMode);
-    }
-
-
+const  Header = ({darkMode, toggleDarkMode}) => {
     return(
         <header className={darkMode ? "header-dark" : ""}>
             <div className="brand">

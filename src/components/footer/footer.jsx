@@ -1,9 +1,11 @@
 import FooterContact from "../footerContact/footerContact"
 import "./footer.css"
+import React, {useState} from "react";
 
-const Footer = () => {
+
+const Footer = ({darkMode}) => {
     return(
-        <footer>
+        <footer className={`footer ${darkMode ? "footer-dark": ""}`}>
         <nav className="menu-footer">
             <ul className="footer-list">
                 <li className="menu-footer__items"><a href="#">Servicios</a></li>
