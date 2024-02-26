@@ -1,7 +1,7 @@
 import "./calendar.css";
 import React, { useState, useEffect } from "react";
 
-const Calendar = () => {
+const Calendar = ({darkMode}) => {
   const [currentMonth, setCurrentMonth] = useState("");
   const [currentYear, setCurrentYear] = useState("");
   const [daysInMonth, setDaysInMonth] = useState([]);
@@ -70,7 +70,7 @@ const Calendar = () => {
       <h1>
         {currentMonth} {currentYear}
       </h1>
-      <ol>
+      <ol className={darkMode ? "ol-dark" : ""}>
         <li className="day-name">Dom</li>
         <li className="day-name">Lun</li>
         <li className="day-name">Mar</li>

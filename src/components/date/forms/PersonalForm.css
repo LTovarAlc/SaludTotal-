@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.personal-form-dark{
+    background-color: #333333;
+    color: #fff;
+}
+
 .personal-form h6{
     font-size: 26px;
 }
@@ -16,7 +21,6 @@
     flex-direction: column;
     justify-content: center;
     height: 40px;
-    padding: 0px 4px;
     width: 45%;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
@@ -32,14 +36,21 @@
 .date__picker{
     background-color: #fff;
     border: none;
-    height: 30px;
+    height: 100%;
+    width: 100%;
     cursor: pointer;
     transition: 0.2s ease;
     border-radius: 4px;
+    padding: 0px 4px;
 }
 
 .date__picker:hover{
     background-color: #4985e01f;
+}
+
+.date__picker-dark{
+    background-color: #2a2a2a;
+    color: #fff;
 }
 
 .gender{
@@ -49,6 +60,15 @@
     border: none;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
     outline: none;
+}
+
+.gender-dark{
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.gender-dark option{
+    background-color: #2a2a2a;
 }
 
 .gender:hover{

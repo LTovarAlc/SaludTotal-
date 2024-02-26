@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import ButtonBack from "../button/buttonBack";
 import CardConfirmation from "./cardConfirmation/cardConfirmation";
 
-const Date = () => {
+const Date = ({darkMode}) => {
   const [step, setStep] = useState(1);
 
   const handleNextStep = () => {
@@ -20,17 +20,17 @@ const Date = () => {
   };
 
   return (
-    <section className="date">
+    <section className={`date ${darkMode ? "date-dark" : ""}`}>
       <h6>Agende una cita con nosotros</h6>
       <div className="appointment__container">
         <div className="instructions__calendar-container">
-          <Instructions />
-          <Calendar />
+          <Instructions darkMode={darkMode}/>
+          <Calendar darkMode={darkMode}/>
         </div>
         {step !== 3 && (
-          <div className="form_container">
-            {step === 1 && <PersonalForm />}
-            {step === 2 && <DateForm />}
+          <div className={`form_container ${darkMode ? "form_container-dark" : ""}`}>
+            {step === 1 && <PersonalForm darkMode={darkMode} />}
+            {step === 2 && <DateForm  darkMode={darkMode}/>}
             <div className="btns__container">
               {step === 2 && (
                 <ButtonBack text="Regresar" onClick={handlePreviousStep} />

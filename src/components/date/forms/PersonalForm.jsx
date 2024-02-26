@@ -1,29 +1,30 @@
+import ReactDatePicker from "react-datepicker";
 import Button from "../../button/button";
 import "./PersonalForm.css";
 import Input from "./inputs/inputs";
 
-const PersonalForm = () => {
+const PersonalForm = ({darkMode}) => {
   return (
-    <form action="" className="personal-form">
+    <form action="" className={`personal-form ${darkMode ? "personal-form-dark" : ""}`}>
       <h6>Datos del interesado</h6>
-      <Input type="text" name="name" placheholder="Nombre completo" />
+      <Input type="text" name="name" placheholder="Nombre completo" darkMode={darkMode} />
       <div className="date-gender__container">
         <div className="date-picker__container">
           <input
             type="date"
             id="bornDate"
             name="bornDate"
-            className="date__picker"
+            className={`date__picker ${darkMode ? "date__picker-dark" : ""}`}
           />
         </div>
-        <select id="genero" name="genero" className="gender">
+        <select id="genero" name="genero" className={`gender ${darkMode ? "gender-dark": ""}`}>
             <option value="masculino">Masculino</option>
             <option value="femenino">Femenino</option>
             <option value="otro">Otro</option>
         </select>
       </div>
-      <Input type="email" name="email" placheholder="Correo electrónico" />
-      <Input type="tel" name="phone" placheholder="Teléfono" />
+      <Input type="email" name="email" placheholder="Correo electrónico" darkMode={darkMode}/>
+      <Input type="tel" name="phone" placheholder="Teléfono" darkMode={darkMode} />
     </form>
   );
 };

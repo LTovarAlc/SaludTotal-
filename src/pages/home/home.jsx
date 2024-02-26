@@ -12,9 +12,9 @@ const Home = ({darkMode, toggleDarkMode}) => {
         <section className={`home ${darkMode ? "dark": ""}`}>
             <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}  />
             <Banner />
-            <Services />
-            <Location />
-            <Date />
+            <Services darkMode={darkMode}/>
+            <Location darkMode={darkMode}/>
+            <Date darkMode={darkMode}/>
             <Footer darkMode={darkMode}/>
         </section>
     );
