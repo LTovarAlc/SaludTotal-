@@ -1,8 +1,8 @@
 import "./cardLocation.css";
 
-const CardLocation = () => {
+const CardLocation = ({darkMode}) => {
   return (
-    <div className="cardLocation">
+    <div className={`cardLocation ${darkMode ? "cardLocation-dark": ""}`}>
       <div className="cardLocation__content">
         <div className="cardLocation__title">
           <img
