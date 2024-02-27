@@ -1,9 +1,9 @@
 import "./cardDoctor.css"
 import React from "react"
 
-const CardDoctor = ({doctors}) => {
+const CardDoctor = ({doctors, darkMode}) => {
     return(
-        <div className="cardDoctor">
+        <div className={`cardDoctor ${darkMode ? "cardDoctor-dark": ""}`}>
             <img src="../../../../../img/doctor.png" alt="Doctor" className="doctor__img"/>
             <div className="doctor__info">
                 <span className="doctor__name">{doctors.name}</span>

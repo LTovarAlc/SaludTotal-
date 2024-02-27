@@ -1,9 +1,9 @@
 import React from "react";
 import "./cardServices.css";
 
-const CardServices = ({ service }) => {
+const CardServices = ({ service, darkMode }) => {
   return (
-    <div className="cardService">
+    <div className={`cardService ${darkMode ? "cardService-dark" : ""}`}>
       <div className="content">
         <p className="logo">SaludTotal</p>
         <div className="h6">{service.name}</div>

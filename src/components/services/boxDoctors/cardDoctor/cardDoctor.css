@@ -8,6 +8,11 @@
     background-color: #fff;
 }
 
+.cardDoctor-dark{
+    background-color: #333333;
+    color: #fff;
+}
+
 .doctor__img{
     width: 30%;
 }

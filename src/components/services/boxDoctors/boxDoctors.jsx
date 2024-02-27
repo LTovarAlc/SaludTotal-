@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react"
 import axios from "axios"
 import CardDoctor from "./cardDoctor/cardDoctor"
 
-const BoxDoctors = () => {
+const BoxDoctors = ({darkMode}) => {
     const [doctors, setDoctors] = useState([])
 
     useEffect(() => {
@@ -24,9 +24,9 @@ const BoxDoctors = () => {
     return(
         <div className="boxDoctors">
             <div className="box__title">Especialistas</div>
-            <div className="box__content">
+            <div className={`box__content ${darkMode ? "box__content-dark": ""}`}>
                 {doctors.map(doctors => (
-                    <CardDoctor key={doctors.id} doctors={doctors}/>
+                    <CardDoctor key={doctors.id} doctors={doctors} darkMode={darkMode}/>
                 ))}
             </div>
         </div>

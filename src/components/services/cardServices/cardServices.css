@@ -19,6 +19,15 @@
   transition: all 0.35s ease;
 }
 
+.cardService-dark{
+  background-color: #333333;
+  color: #fff;
+}
+
+.description-dark{
+  color: #999;
+}
+
 .cardService::before,
 .cardService::before::after {
   content: "";
