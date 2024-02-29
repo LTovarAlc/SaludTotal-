@@ -20,7 +20,7 @@ const Date = ({darkMode}) => {
   };
 
   return (
-    <section className={`date ${darkMode ? "date-dark" : ""}`}>
+    <section className={`date ${darkMode ? "date-dark" : ""}`} id="date">
       <h6>Agende una cita con nosotros</h6>
       <div className="appointment__container">
         <div className="instructions__calendar-container">

@@ -3,7 +3,7 @@ import "./location.css";
 
 const Location = ({darkMode}) => { 
     return(
-        <section className={`location ${darkMode ? "location-dark" : ""}`}>
+        <section className={`location ${darkMode ? "location-dark" : ""}`} id="location">
             <h5 className="section__title">Encuéntrenos aquí</h5>
             <div className="location__container">
             <CardLocation darkMode={darkMode}/>

@@ -8,9 +8,9 @@ const Footer = ({darkMode}) => {
         <footer className={`footer ${darkMode ? "footer-dark": ""}`}>
         <nav className="menu-footer">
             <ul className="footer-list">
-                <li className="menu-footer__items"><a href="#">Servicios</a></li>
-                <li className="menu-footer__items"><a href="#">Ubicación</a></li>
-                <li className="menu-footer__items"><a href="#">Citas</a></li>
+                <li className="menu-footer__items"><a href="#services">Servicios</a></li>
+                <li className="menu-footer__items"><a href="#location">Ubicación</a></li>
+                <li className="menu-footer__items"><a href="#date">Citas</a></li>
                 <li className="menu-footer__items"><a href="#">Soporte</a></li>
                 <li className="menu-footer__items"><a href="#">Atención al cliente</a></li>
                 <li className="menu-footer__items"><a href="#">Sobre nosotros</a></li>

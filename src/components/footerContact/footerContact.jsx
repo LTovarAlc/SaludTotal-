@@ -8,7 +8,7 @@ const FooterContact = ({darkMode}) => {
             <h6>Contactanos</h6>
             <Inputs placheholder="Nombre" darkMode={darkMode}/>
             <Inputs placheholder="Asunto" darkMode={darkMode}/>
-            <textarea name="messageConctact" id="messageContact" cols="31" rows="2" placeholder="¿En qué podemos ayudar?" className={`message ${darkMode ? "message-dark" : ""}`}></textarea>
+            <textarea name="messageConctact" id="messageContact" rows="2" placeholder="¿En qué podemos ayudar?" className={`message ${darkMode ? "message-dark" : ""}`}></textarea>
             <Button text="Enviar"/>
             
         </form>
