@@ -1,10 +1,10 @@
 import "./cardConfirmation.css";
 
-const CardConfirmation = () => {
+const CardConfirmation = ({darkMode}) => {
   return (
     <div className="card">
-      <div className="circle"></div>
-      <div className="circle"></div>
+      <div className={`circle ${darkMode ? "circle-dark": ""}`}></div>
+      <div className={`circle ${darkMode ? "circle-dark": ""}`}></div>
       <div className="card-inner">
         <h6>Su solicitud ah sido enviada</h6>
         <div className="success">&#x2713;</div>

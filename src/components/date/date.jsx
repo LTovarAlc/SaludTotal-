@@ -39,7 +39,7 @@ const Date = ({darkMode}) => {
             </div>
           </div>
         )}
-        {step === 3 && <CardConfirmation />}
+        {step === 3 && <CardConfirmation darkMode={darkMode} />}
       </div>
     </section>
   );

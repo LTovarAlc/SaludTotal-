@@ -1,10 +1,10 @@
 import "./cardSendMessage.css";
 
-const CardSendMessage = () => {
+const CardSendMessage = ({darkMode}) => {
   return (
     <div className="cardMessage">
-      <div className="circle"></div>
-      <div className="circle"></div>
+      <div className={`circle ${darkMode ? "circle-dark": ""}`}></div>
+      <div className={`circle ${darkMode ? "circle-dark": ""}`}></div>
       <div className="card-innerMessage">
         <h6>Su mensaje fue enviado</h6>
         <div className="success">&#x2713;</div>

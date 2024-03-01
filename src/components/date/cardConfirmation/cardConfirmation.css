@@ -35,6 +35,10 @@
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
 
+.circle-dark{
+  background: #2a2a2a;
+}
+
 .circle:nth-child(1) {
   top: -25px;
   left: -25px;

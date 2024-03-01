@@ -42,7 +42,7 @@ const FooterContact = ({ darkMode }) => {
                     <Button text="Enviar"/>
                 </form>
             )}
-            {formSubmitted && <CardSendMessage/>}
+            {formSubmitted && <CardSendMessage darkMode={darkMode}/>}
         </div>
     );
 };
