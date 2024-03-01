@@ -7,15 +7,10 @@ const PersonalForm = ({darkMode}) => {
   return (
     <form action="" className={`personal-form ${darkMode ? "personal-form-dark" : ""}`}>
       <h6>Datos del interesado</h6>
-      <Input type="text" name="name" placheholder="Nombre completo" darkMode={darkMode} />
+      <Input type="text" name="name" placeholder="Nombre completo" darkMode={darkMode} />
       <div className="date-gender__container">
         <div className="date-picker__container">
-          <input
-            type="date"
-            id="bornDate"
-            name="bornDate"
-            className={`date__picker ${darkMode ? "date__picker-dark" : ""}`}
-          />
+          <input type="number" name="age" id="age" placeholder="Edad" className="date__picker" />
         </div>
         <select id="genero" name="genero" className={`gender ${darkMode ? "gender-dark": ""}`}>
             <option value="masculino">Masculino</option>
@@ -23,8 +18,8 @@ const PersonalForm = ({darkMode}) => {
             <option value="otro">Otro</option>
         </select>
       </div>
-      <Input type="email" name="email" placheholder="Correo electrónico" darkMode={darkMode}/>
-      <Input type="tel" name="phone" placheholder="Teléfono" darkMode={darkMode} />
+      <Input type="email" name="email" placeholder="Correo electrónico" darkMode={darkMode}/>
+      <Input type="tel" name="phone" placeholder="Teléfono" darkMode={darkMode} />
     </form>
   );
 };
