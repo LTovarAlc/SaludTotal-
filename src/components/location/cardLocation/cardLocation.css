@@ -86,8 +86,12 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  color: #000;
 }
 
+.cardLocation__title-dark{
+  color: #fff;
+}
 .cardLocation__title span {
   font-size: 22px;
   font-weight: 500;
@@ -96,7 +100,7 @@
 
 .cardLocation__icons {
   height: 30px;
-}
+} 
 
 .cardLocation__items {
   width: 100%;
@@ -110,6 +114,11 @@
 .cardLocation__items a {
   cursor: pointer;
   margin-left: 10px;
+  color: #000;
+}
+
+.cardLocation__items-dark a{
+  color: #fff;
 }
 
 .cardLocation__items a:hover {

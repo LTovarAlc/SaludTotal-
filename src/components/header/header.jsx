@@ -14,10 +14,10 @@ const  Header = ({darkMode, toggleDarkMode}) => {
             </div>
             <nav className="navbar">
                 <ul className="navbar__list">
-                    <li className="item__list">Servicios</li>
-                    <li className="item__list">Médicos</li>
-                    <li className="item__list">Ubicación</li>
-                    <li className="item__list">Agendar cita</li>
+                    <li className="item__list"><a href="#services">Servicios</a></li>
+                    <li className="item__list"><a href="#services">Médicos</a></li>
+                    <li className="item__list"><a href="#location">Ubicación</a></li>
+                    <li className="item__list"><a href="#date">Agendar cita</a></li>
                     <DarkMode toggleDarkMode={toggleDarkMode}/>
                 </ul>
             </nav>
