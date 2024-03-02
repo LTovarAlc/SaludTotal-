@@ -1,8 +1,17 @@
+import { useState } from "react"
 import DarkMode from "./darkmodeBtn/darkModeBtn"
+import HamburguerMenu from "./hamburguerMenu/hamburguerMenu"
 
 import "./header.css"
+import MenuMobile from "./menuMobile/menuMobile"
 
 const  Header = ({darkMode, toggleDarkMode}) => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const handleMenuMobileOpen = (isOpen) => {
+        setIsMenuOpen(isOpen);
+    }
+
     return(
         <header className={darkMode ? "header-dark" : ""}>
             <div className="brand">
@@ -20,6 +29,12 @@ const  Header = ({darkMode, toggleDarkMode}) => {
                     <li className="item__list"><a href="#date">Agendar cita</a></li>
                     <DarkMode toggleDarkMode={toggleDarkMode}/>
                 </ul>
+            </nav>
+            <nav className="navBar__mobile">
+                <DarkMode toggleDarkMode={toggleDarkMode}/>
+                <HamburguerMenu handleMenuMobileOpen={handleMenuMobileOpen}/>
+                {isMenuOpen && <MenuMobile/>}
+                
             </nav>
         </header>
     )
