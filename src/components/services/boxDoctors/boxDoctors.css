@@ -45,3 +45,9 @@
 .box__content{
     scrollbar-width: none;
 }
+
+@media screen and (max-width: 430px) {
+    .boxDoctors{
+        width: 100%;
+    }
+}
