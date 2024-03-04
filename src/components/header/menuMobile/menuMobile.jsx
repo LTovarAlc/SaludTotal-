@@ -1,6 +1,6 @@
 import "./menuMobile.css";
 
-const MenuMobile = () => {
+const MenuMobile = ({darkMode}) => {
   return (
     <aside className="menuMobile">
       <ol className="menuMobile__list">

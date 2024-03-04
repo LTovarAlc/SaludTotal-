@@ -32,8 +32,8 @@ const  Header = ({darkMode, toggleDarkMode}) => {
             </nav>
             <nav className="navBar__mobile">
                 <DarkMode toggleDarkMode={toggleDarkMode}/>
-                <HamburguerMenu handleMenuMobileOpen={handleMenuMobileOpen}/>
-                {isMenuOpen && <MenuMobile/>}
+                <HamburguerMenu handleMenuMobileOpen={handleMenuMobileOpen} darkMode={darkMode}/>
+                {isMenuOpen && <MenuMobile darkMode={darkMode}/>}
                 
             </nav>
         </header>
