@@ -12,6 +12,14 @@
     animation: slideInLeft 0.5s forwards;
 }
 
+.menuMobile-dark{
+    background-color: #2a2a2a;
+}
+
+.menuMobile__list-dark{
+    background-color: #2a2a2a;
+}
+
 @keyframes slideInLeft {
     from{
         right: -100%;
