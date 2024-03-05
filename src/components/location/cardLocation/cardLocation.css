@@ -126,3 +126,17 @@
   color: #025b52;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 430px) {
+  .cardLocation{
+    width:70%;
+    height: 30%;
+  }
+  .cardLocation::before{
+    height: 160px;
+  }
+  .cardLocation:hover::before{
+    height: 50px;
+  }
+  
+}

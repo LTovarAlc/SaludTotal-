@@ -36,3 +36,25 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+@media screen and (max-width: 430px) {
+    .location{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section__title{
+        font-size: 30px;
+    }
+    .location__container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .map__container{
+        width: 100%;
+        height: 50%;
+    }
+}
