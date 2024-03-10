@@ -10,7 +10,7 @@ const PersonalForm = ({darkMode}) => {
       <Input type="text" name="name" placeholder="Nombre completo" darkMode={darkMode} />
       <div className="date-gender__container">
         <div className="date-picker__container">
-          <input type="number" name="age" id="age" placeholder="Edad" className="date__picker" />
+          <input type="number" name="age" id="age" placeholder="Edad" className={`date__picker ${darkMode ? "date__picker-dark": ""}`} />
         </div>
         <select id="genero" name="genero" className={`gender ${darkMode ? "gender-dark": ""}`}>
             <option value="masculino">Masculino</option>
