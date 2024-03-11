@@ -100,3 +100,21 @@
     z-index: 0;
   }
 }
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+  .banner{
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .presentation{
+    width: 100%;
+  }
+  .slogan{
+    font-size: 34px;
+  }
+  .presentation__title{
+    font-size: 49px;
+  }
+}
