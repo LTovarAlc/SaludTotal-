@@ -22,14 +22,14 @@ const BoxDoctors = ({darkMode}) => {
     }, []);
 
     return(
-        <div className="boxDoctors">
+        <aside className="boxDoctors">
             <div className="box__title">Especialistas</div>
             <div className={`box__content ${darkMode ? "box__content-dark": ""}`}>
                 {doctors.map(doctors => (
                     <CardDoctor key={doctors.id} doctors={doctors} darkMode={darkMode}/>
                 ))}
             </div>
-        </div>
+        </aside>
     )
 }
 
