@@ -69,3 +69,11 @@
     width: 90%;
   }
 }
+
+@media screen and (min-width: 430px) and (max-width: 768px) {
+  .cardInstructions{
+    height: 70%;
+    width: 50%;
+  }
+  
+}
