@@ -140,3 +140,16 @@
   }
   
 }
+
+@media screen and (min-width:430px) and (max-width:768px) {
+  .cardLocation{
+    width: 50%;
+    height: 30%;
+  }
+  .cardLocation::before{
+    height: 160px;
+  }
+  .cardLocation:hover::before{
+    height: 50px;
+  }
+}

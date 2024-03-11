@@ -58,3 +58,24 @@
         height: 50%;
     }
 }
+
+@media screen and (min-width: 430px) and (max-width: 768px) {
+    .location{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section__title{
+        font-size: 45px;
+    }
+    .location__container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .map__container{
+        width: 90%;
+        height: 50%;
+    }
+}
